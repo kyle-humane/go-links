@@ -5,7 +5,11 @@ import os
 import traceback
 
 import jinja2
+<<<<<<< HEAD
 from flask import Flask, send_from_directory, redirect, render_template, request, jsonify, session, make_response
+=======
+from flask import Flask, send_from_directory, redirect, render_template, request, jsonify, session
+>>>>>>> 3779a86 (Self review fixes)
 from flask_login import LoginManager, current_user, logout_user
 from flask_sqlalchemy import SQLAlchemy as _BaseSQLAlchemy
 from flask_migrate import Migrate, upgrade as upgrade_db
